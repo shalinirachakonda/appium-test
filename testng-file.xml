@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1" parallel="methods">
+	<parameter name="browser" value="chrome"></parameter>
+	<!-- <test name="Test Login">
+		<classes>
+			<class
+				name="org.ets.selenium.tests.iviewer_selenium_regression_tests.LoginTest"/>
+		</classes>
+
+	</test> -->
+	
+	<test name="Test Links">
+		<classes>
+			<class
+				name="org.ets.selenium.tests.iviewer_selenium_regression_tests.TestLinks"/>
+		</classes>
+
+	</test>
+
+
+</suite>
+
+
+
+
+
+

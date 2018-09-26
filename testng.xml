@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.ets.selenium.tests.iviewer_selenium_regression_tests.CreateDeletPlaceTest"/>
+      <class name="org.ets.selenium.tests.iviewer_selenium_regression_tests.RestGoogleTest"/>
+      <class name="org.ets.selenium.tests.iviewer_selenium_regression_tests.RestGooglePostTest2"/>
+      <class name="org.ets.selenium.tests.iviewer_selenium_regression_tests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
